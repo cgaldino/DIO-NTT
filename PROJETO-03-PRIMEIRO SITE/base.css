@@ -88,7 +88,7 @@ body .header h2 {
     float: left;
 }
 
-.footer ul a:link,
+.footer ul a    ,
 a:visited,
 a:active {
     color: #a3a3a3;
@@ -128,10 +128,12 @@ body .header img {
     margin-right: 0%;
     margin-top: 0px;
 }
-.content table{
+
+.content table {
     width: 950px;
-    
+
 }
+
 .content table thead tr th {
     background-color: #ee0b1a3b;
     color: black;
@@ -157,4 +159,31 @@ body .header img {
 .content table tfoot {
     background-color: #1f1e1e3a;
     color: black;
+}
+
+.content form input {
+    width: 12%;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+.content ul {
+    float: left;
+}
+
+.content ul a,
+a:visited,
+a:active {
+    color: #1f1e1e;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+.content ul li {
+    color: #ee0b19;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
 }
